@@ -1,0 +1,39 @@
+
+notes:
+
+- explain web serverness
+- $ npm install -g http-server
+- $ mkdir public
+- $ echo "hi there" > public/index.html
+- show server working at localhost:8080
+- $ mkdir -p public/assets/js
+- $ mkdir -p public/assets/css
+- $ touch public/assets/js/main.js
+- $ touch public/assets/css/style.css
+- open sublime and add junk test stuff to 3 files 
+
+  - index.html
+  
+    add link and script tags
+
+  - main.js
+
+    function alertstars(message) {
+      alert("★★★★★ " + message + " ★★★★★");
+    }
+
+    window.onload = function () {
+      alertstars("Welcome to my page!");
+    };
+
+  - style.css
+
+    body {
+      font-family: "Comic Sans";
+      background-color: Khaki;
+    }
+
+- show it working in browser
+- explain what's next
+
+DONE
