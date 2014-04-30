@@ -2,5 +2,24 @@
   "dependencies": {
     "underscore": "^1.6.0",
     "jquery": "^2.1.0"
+  },
+  "devDependencies": {
+    "chai": "^1.9.1",
+    "mocha": "^1.18.2"
+  },
+  "testling": {
+    "harness": "mocha-bdd",
+    "files": "test/*.js",
+    "browsers": [
+      "ie/7..latest",
+      "chrome/latest",
+      "firefox/latest",
+      "safari/latest",
+      "iphone/latest",
+      "android/latest"
+    ]
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --reporter spec"
   }
 }
