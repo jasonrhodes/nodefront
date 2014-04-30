@@ -21,7 +21,6 @@ module.exports = function (hex, callback) {
   var g = parseInt([nums[4], nums[5]].join(""), 16);
   var b = parseInt([nums[2], nums[3]].join(""), 16);
 
-  // retur
   return callback(null, [r, g, b]);
 
 };
